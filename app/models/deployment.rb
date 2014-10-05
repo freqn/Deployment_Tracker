@@ -15,6 +15,8 @@ class Deployment < ActiveRecord::Base
   has_many :applications
   has_many :comments
 
+  validates :name, uniqueness: true
+
   accepts_nested_attributes_for :comments
 
 end
