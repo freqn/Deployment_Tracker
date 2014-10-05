@@ -1,16 +1,15 @@
 # == Schema Information
 #
-# Table name: applications
+# Table name: comments
 #
 #  id         :integer          not null, primary key
-#  name       :string(255)
+#  content    :text
 #  created_at :datetime
 #  updated_at :datetime
-#  user_id    :integer
 #
 
-class Application < ActiveRecord::Base
+class Comment < ActiveRecord::Base
 
-  belongs_to :user
-
+  belongs_to :deployment
+  
 end

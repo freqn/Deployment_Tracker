@@ -30,6 +30,7 @@ gem 'devise'
 gem 'cancancan'
 gem 'annotate'
 gem 'pry'
+gem 'nested_form'
 
 group :development, :test do
   gem 'rspec-rails'

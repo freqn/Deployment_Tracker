@@ -1,0 +1,129 @@
+/* line 5, /Users/bcrosby/Desktop/RubyRails/Deployment_Tracker/app/assets/stylesheets/dashboard.css.scss */
+#dash_controls a {
+  padding: 5px 10px 7px;
+  border-radius: 8px;
+  border: 3px solid saddlebrown;
+  background: lightgoldenrodyellow;
+  text-decoration: none;
+  color: saddlebrown;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/* line 17, /Users/bcrosby/Desktop/RubyRails/Deployment_Tracker/app/assets/stylesheets/application.css.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 20, /Users/bcrosby/Desktop/RubyRails/Deployment_Tracker/app/assets/stylesheets/application.css.scss */
+body {
+  background: linen url("/assets/fabric_bg.png");
+  font-family: verdana, arial, sans-serif;
+  color: saddlebrown;
+}
+
+/* line 25, /Users/bcrosby/Desktop/RubyRails/Deployment_Tracker/app/assets/stylesheets/application.css.scss */
+#wrapper {
+  width: 100%;
+  width: calc(100% - 120px);
+  min-height: 100%;
+  margin: -10px auto;
+  background: white;
+  border-left: 1px solid saddlebrown;
+  border-right: 1px solid saddlebrown;
+  box-shadow: 0 0 15px 25px rgba(139, 69, 19, 0.35);
+  position: relative;
+  overflow: auto;
+}
+
+/* line 37, /Users/bcrosby/Desktop/RubyRails/Deployment_Tracker/app/assets/stylesheets/application.css.scss */
+#user_nav {
+  height: 35px;
+  background: lightgoldenrodyellow;
+  padding: 15px 10px 3px;
+  border-bottom: 4px solid saddlebrown;
+  font-size: .85rem;
+  position: relative;
+  overflow: auto;
+}
+
+/* line 46, /Users/bcrosby/Desktop/RubyRails/Deployment_Tracker/app/assets/stylesheets/application.css.scss */
+#user_nav #logo {
+  float: left;
+}
+
+/* line 49, /Users/bcrosby/Desktop/RubyRails/Deployment_Tracker/app/assets/stylesheets/application.css.scss */
+#user_nav #logo img {
+  width: 65%;
+  height: 65%;
+  margin-top: -5px;
+}
+
+/* line 54, /Users/bcrosby/Desktop/RubyRails/Deployment_Tracker/app/assets/stylesheets/application.css.scss */
+#user_nav #signInOut {
+  float: right;
+  font-size: .75rem;
+  padding: 2px 0 0;
+}
+
+/* line 59, /Users/bcrosby/Desktop/RubyRails/Deployment_Tracker/app/assets/stylesheets/application.css.scss */
+#flash_alert, #flash_notice {
+  color: white;
+  font-size: .75rem;
+  padding: 2px 10px 4px;
+}
+
+/* line 64, /Users/bcrosby/Desktop/RubyRails/Deployment_Tracker/app/assets/stylesheets/application.css.scss */
+#flash_notice {
+  background: green;
+}
+
+/* line 67, /Users/bcrosby/Desktop/RubyRails/Deployment_Tracker/app/assets/stylesheets/application.css.scss */
+#flash_alert {
+  background: red;
+}
+
+/* line 70, /Users/bcrosby/Desktop/RubyRails/Deployment_Tracker/app/assets/stylesheets/application.css.scss */
+#content {
+  min-height: 550px;
+  padding: 3px 15px 30px;
+  background: rgba(222, 184, 135, 0.65);
+  overflow: auto;
+}
+/* line 76, /Users/bcrosby/Desktop/RubyRails/Deployment_Tracker/app/assets/stylesheets/application.css.scss */
+#content fieldset {
+  border-radius: 7px;
+}
+/* line 79, /Users/bcrosby/Desktop/RubyRails/Deployment_Tracker/app/assets/stylesheets/application.css.scss */
+#content section {
+  float: left;
+  width: 72%;
+}
+/* line 84, /Users/bcrosby/Desktop/RubyRails/Deployment_Tracker/app/assets/stylesheets/application.css.scss */
+#content aside {
+  float: left;
+  width: 150px;
+}
+
+/* line 89, /Users/bcrosby/Desktop/RubyRails/Deployment_Tracker/app/assets/stylesheets/application.css.scss */
+#ftr {
+  clear: both;
+  height: 35px;
+  background: lightgoldenrodyellow;
+  padding: 1px 10px 4px;
+  border-top: 4px solid saddlebrown;
+  font-size: .70rem;
+  bottom: 0;
+}

@@ -3,8 +3,14 @@
   <%= form_for @deployment do |f| %>
     <% options = options_from_collection_for_select(@applications, 'id', 'name') %>
     Application: <%= f.select :application_id,  options %><br />
-    Deployment Date: <%= f.date_select :deployment_date %><br />
 
+    Deployment Date: <%= f.date_select :deployment_date %><br />
+    <%= f.fields_for :comments do |builder| %>
+      <%= builder.label :content, "Comment" %><br />
+      <%= builder.text_area :content, :rows => 5 %>
+    <% end %>
     <%= f.submit %>
   <% end %>
 </fieldset>
+<br />
+<%= link_to "Back", :back %> | <%= link_to "Home", root_url %>

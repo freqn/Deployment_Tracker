@@ -1,1 +1,10 @@
-<h1>All Deployment Tickets</h1>
+<h3>All Deployment Tickets</h3>
+<% if !@deployments.empty? %>
+  <ul>
+    <% @deployments.each do |d| %>
+      <li><%= link_to d.name, d %></li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= link_to "Back", :back %> | <%= link_to "Home", root_url %>
