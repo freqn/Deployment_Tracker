@@ -1,1 +1,5 @@
 <h1>Dashboard</h1>
+<section id="dash_controls">
+  <%= link_to "New Deployment Ticket", new_deployment_path %>
+  <%= link_to "(" + @deployments.count.to_s + ") tickets", deployments_path %>
+</section>
